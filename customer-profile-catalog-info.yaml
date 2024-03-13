@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-profile
+  namespace: mae
+  description: Multi-tier app for managing customer profiles.
+  tags:
+    - react
+    - web
+    - tanzu
+    - typescript
+    - app-accelerator
+    - java
+    - spring
+    - server
+  annotations:
+    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile"
+spec:
+  type: website
+  lifecycle: experimental
+  owner: default-team
