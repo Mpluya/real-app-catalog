@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-profile
+  namespace: mae
+  description: customer profile system
+  tags:
+    - react
+    - web
+    - tanzu
+    - typescript
+    - app-accelerator
+    - java
+    - spring
+    - server
+  annotations:
+    "backstage.io/kubernetes-label-selector": "backstage.io/kubernetes-id=customer-profile"
+spec:
+  owner: team-awesome
+  domain: cloud-apps
