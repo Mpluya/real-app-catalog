@@ -14,7 +14,7 @@ metadata:
     - spring
     - server
   annotations:
-    "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=react-frontend,backstage.io/kubernetes-id=customer-profile"
+    "backstage.io/kubernetes-label-selector": "backstage.io/kubernetes-id=customer-profile"
 spec:
   type: service
   lifecycle: production
