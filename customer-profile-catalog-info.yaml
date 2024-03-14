@@ -16,6 +16,6 @@ metadata:
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=customer-profile"
 spec:
-  type: website
-  lifecycle: experimental
-  owner: default-team
+  type: service
+  lifecycle: production
+  owner: team-awesome
